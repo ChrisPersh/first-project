@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
     background-color: #fff;
 }
 
@@ -15,8 +17,27 @@ ol {
     margin: 0;
     padding: 0;
 }
- h1 {
-    color: red;
-    text-decoration: underline;
+ 
+.header {
+    padding: 92px 50px;   
 }
 
+.cover {
+    padding: 0 0 180px;
+}
+
+.lots {
+    padding: 0 50px 180px;
+}
+
+.about {
+    padding: 0 50px 180px;
+}
+
+.header_links-list {
+    display: inline;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
